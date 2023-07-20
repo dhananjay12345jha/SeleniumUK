@@ -1,0 +1,29 @@
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'userDependentMobileSamsung_oms'),
+      			string(name: 'device', value: 'samsungs10'),
+      			string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+      wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'newUsersMobileSamsung_oms'),
+            	string(name: 'device', value: 'samsungs10'),
+            	string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+      wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'anonymousMobileSamsung_oms'),
+            	string(name: 'device', value: 'samsungs9'),
+            	string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+      wait: false)
+
+      build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+              parameters: [string(name: 'suite', value: 'anonymousMobile2Samsung_oms'),
+                  	string(name: 'device', value: 'samsungs10'),
+                  	string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+            wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'userDependentMobileSamsung_oms'),
+      			string(name: 'device', value: 'samsungs9'),
+      			string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+      wait: false)

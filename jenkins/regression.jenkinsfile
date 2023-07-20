@@ -1,0 +1,93 @@
+properties([parameters([
+		choice(choices: ['parallel', 'parallelMobile', 'smoke', 'smokeMobile', 'anonymousMobile', 'anonymousMobile2', 'newUsersMobile', 'userDependentMobile','anonymousMobileSamsung','userDependentMobileSamsung','anonymousMobile2Samsung','newUsersMobileSamsung', 'parallel_oms', 'parallelMobile_oms', 'smoke_oms', 'smokeMobile_oms', 'anonymousMobile_oms', 'anonymousMobile2_oms', 'newUsersMobile_oms', 'userDependentMobile_oms','anonymousMobileSamsung_oms','userDependentMobileSamsung_oms','anonymousMobile2Samsung_oms','newUsersMobileSamsung_oms'], description: 'Which suite do you want to run?', name: 'suite'),
+		choice(choices: ['aws12', 'aws13', 'aws16', 'aws18', 'aws19'], description: 'Which environment do you want to run the tests in?', name: 'testEnv'),
+		choice(choices: ['ipad', 'iphone8', 'iphone11', 'iphone11-pro', 'iphone11-pro-max', 'samsungs9', 'samsungs10', 'windows10'], description: 'Which device do you want to run the tests on?', name: 'device'),
+		choice(choices: ['fde7d183-6ec2-4f6e-a9ea-6c4a93af5763', 'c0b3729d-5708-41a2-a794-add804540949'], description: 'Which browserstack account to use?', name: 'browserstackuser'),
+		choice(choices: ['vishalbansal_oq7t1A', 'satishkumar_Ir6C3d'], description: 'Which browserstack account to use?', name: 'bsUser'),
+		choice(choices: ['C2kBcyjwybVuyR4SccMc', 'xXpLRFDp9n7BEzqpenwt'], description: 'Which browserstack key to use?', name: 'bsKey')
+
+])])
+
+final def siteUrl = "https://www-" + params['testEnv'] + ".dev-newlook.com/"
+final def apiUrl = "https://apps-" + params['testEnv'] + ".dev-newlook.com/"
+
+pipeline {
+	agent any
+
+	stages {
+
+		stage('Run Regression Test Suite') {
+			steps {
+				script {
+				    dir ("test/NEWLOOK_SAF") {
+					catchError {
+						browserstack(credentialsId: browserstackuser, localConfig: [localOptions: '-forcelocal', localPath: '']) {
+							sh "pwd && ls -ltr"
+							sh "mvn clean test -P browserstack -P $suite -P $device  -Dsite.url=$siteUrl -Dapi.url=$apiUrl -DbsUser=$bsUser -DbsKey=$bsKey"
+                    	}
+					}
+				}
+				}
+			}
+		}
+
+		stage('Upload Cucumber Report') {
+			steps {
+				cucumber fileIncludePattern: 'test/NEWLOOK_SAF/target/cucumber-report/finalReport/cucumber.json',
+				 		buildStatus: 'FAILURE',
+				 		failedScenariosNumber: 1,
+						trendsLimit: 10,
+						classifications: [
+								[
+										'key'  : 'Suite',
+										'value': suite
+								],
+                                [
+                                		'key'  : 'Device',
+                                		'value': device
+                                ],
+								[
+										'key'  : 'Env',
+										'value': testEnv
+								]
+						]
+			}
+		}
+		stage('allure reports') {
+          steps {
+            sh """
+            ls -a ${WORKSPACE}
+            """
+            script {
+               ws("$workspace/test/NEWLOOK_SAF/target/"){
+                  allure([
+                          includeProperties: false,
+                          jdk: '1.8',
+                          properties: [],
+                          reportBuildPolicy: 'ALWAYS',
+                          results: [[path: 'allure-results']]
+                  ])
+               }
+            }
+          }
+      }
+		stage('Publish') {
+			steps {
+				script {
+              echo 'Publish Allure report'
+              publishHTML(
+                      target: [
+                              allowMissing         : false,
+                              alwaysLinkToLastBuild: false,
+                              keepAll              : true,
+                              reportDir            : 'target/allure-report',
+                              reportFiles          : 'index.html',
+                              reportName           : "Allure Report"
+                      ]
+             )
+           }
+         }
+      }
+	}
+}
+

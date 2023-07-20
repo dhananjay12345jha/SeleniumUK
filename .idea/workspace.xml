@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36106b17-4474-452c-bfe4-b44487ada0c1" name="Default Changelist" comment="fixing return related mobile cases and 2280 ac2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/../../.editorconfig" previewFile="$PROJECT_DIR$/src/test/resources/features/web/01_TestDataSetup.feature" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21gPJyjYVjtcZFq69C8kioclUh6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth0" value="321" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth1" value="321" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth2" value="321" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth3" value="321" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth0" value="321" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth1" value="321" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth2" value="321" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth3" value="321" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\tools\chromedriver\win32" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.salmonAutomationFramework [clean,test,-P...]">
+    <configuration name="Scenario: 1 Create order for awaiting dispatch for home delivery" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/MyAccountOrders.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^1 Create order for awaiting dispatch for home delivery$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^1 Create order for awaiting dispatch for home delivery$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 1 Create order for awaiting dispatch for home delivery" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 1 I First address should be default" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/MyAccountSavedAddress.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^1 I First address should be default$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^1 I First address should be default$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 1 I First address should be default" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 1 Validate my collection location page without any saved locations" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/MyAccount_SavedCollectionLocations.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^1 Validate my collection location page without any saved locations$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^1 Validate my collection location page without any saved locations$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 1 Validate my collection location page without any saved locations" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 1 Validate personal details page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/myAccount_personalDetailsTests.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^1 Validate personal details page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^1 Validate personal details page$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 1 Validate personal details page" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 10 For ROW when I visit Teens section the default selection should be model off as per set data in the back end hybris" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/Plp.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^10 For ROW when I visit Teens section the default selection should be model off as per set data in the back end hybris$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^10 For ROW when I visit Teens section the default selection should be model off as per set data in the back end hybris$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 10 For ROW when I visit Teens section the default selection should be model off as per set data in the back end hybris" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws12.dev-newlook.com/ -Dapi.url=https://apps-aws12.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 11 - Stock equal to or less than 5 units (Single Size Item)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/MyBagAnonymousUser.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^11 \- Stock equal to or less than 5 units \(Single Size Item\)$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^11 \- Stock equal to or less than 5 units \(Single Size Item\)$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 11 - Stock equal to or less than 5 units (Single Size Item)" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 12 Change in collection country to the non-collection country within ROW re-directs user to delivery page in checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/ShoppingCart.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^12 Change in collection country to the non\-collection country within ROW re\-directs user to delivery page in checkout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^12 Change in collection country to the non\-collection country within ROW re\-directs user to delivery page in checkout$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 12 Change in collection country to the non-collection country within ROW re-directs user to delivery page in checkout" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws12.dev-newlook.com/ -Dapi.url=https://apps-aws12.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 12 Use Klarna to checkout order with product level promotions" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/02_KlarnaProductPromotions.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui  " />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^12 Use Klarna to checkout order with product level promotions$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^12 Use Klarna to checkout order with product level promotions$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 12 Use Klarna to checkout order with product level promotions" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws12.dev-newlook.com/ -Dapi.url=https://apps-aws12.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 19 cart page has product color and size selected in the pdp" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/Pdp.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^19 cart page has product color and size selected in the pdp$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^19 cart page has product color and size selected in the pdp$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 19 cart page has product color and size selected in the pdp" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws12.dev-newlook.com/ -Dapi.url=https://apps-aws12.dev-newlook.co" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 1a New user makes a payment for collection and checks order history - gift card" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/Pdp.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^1a New user makes a payment for collection and checks order history \- gift card$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^1a New user makes a payment for collection and checks order history \- gift card$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 1a New user makes a payment for collection and checks order history - gift card" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 1a New user makes a payment for collection and checks order history - gift card" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/purchasesTests.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^1a New user makes a payment for collection and checks order history \- gift card$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^1a New user makes a payment for collection and checks order history \- gift card$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 1a New user makes a payment for collection and checks order history - gift card" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 1a New user makes a payment for collection and checks order history - gift card" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/purchasesTests.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^1a New user makes a payment for collection and checks order history \- gift card$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^1a New user makes a payment for collection and checks order history \- gift card$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 1a New user makes a payment for collection and checks order history - gift card" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 2 I check my Gift Card balance but this is currently at zero" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/GiftCard.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^2 I check my Gift Card balance but this is currently at zero$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^2 I check my Gift Card balance but this is currently at zero$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 2 I check my Gift Card balance but this is currently at zero" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws12.dev-newlook.com/ -Dapi.url=https://apps-aws12.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 2 search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/InputFieldsAlertCheck.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^2 search$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^2 search$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 2 search" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws12.dev-newlook.com/ -Dapi.url=https://apps-aws12.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 3 Add a collection location and verify my collection location page - PCI micro forms" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/MyAccount_SavedCollectionLocations.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^3 Add a collection location and verify my collection location page \- PCI micro forms$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^3 Add a collection location and verify my collection location page \- PCI micro forms$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 3 Add a collection location and verify my collection location page - PCI micro forms" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 3 I try to check my Gift Card balance but my card is blocked" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/GiftCard.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^3 I try to check my Gift Card balance but my card is blocked$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^3 I try to check my Gift Card balance but my card is blocked$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 3 I try to check my Gift Card balance but my card is blocked" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws12.dev-newlook.com/ -Dapi.url=https://apps-aws12.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 31 Registered Customer checkout using invalid debit card , switch to store card payment option" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/purchasesTests.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.config com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^31 Registered Customer checkout using invalid debit card \, switch to store card payment option$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^31 Registered Customer checkout using invalid debit card \, switch to store card payment option$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 31 Registered Customer checkout using invalid debit card , switch to store card payment option" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 4 Guest makes a payment for collection and checks order history -- PCI microforms" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/purchasesTests.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^4 Guest makes a payment for collection and checks order history \-\- PCI microforms$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^4 Guest makes a payment for collection and checks order history \-\- PCI microforms$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 4 Guest makes a payment for collection and checks order history -- PCI microforms" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 6 Different price for the product with colour variants on the PDP page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/Pdp.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^6 Different price for the product with colour variants on the PDP page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^6 Different price for the product with colour variants on the PDP page$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 6 Different price for the product with colour variants on the PDP page" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws12.dev-newlook.com/ -Dapi.url=https://apps-aws12.dev-newlook.com" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 7 Change delivery mode and complete purchase" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/purchasesTests.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^7 Change delivery mode and complete purchase$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^7 Change delivery mode and complete purchase$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 7 Change delivery mode and complete purchase" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Chopin Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/web/MyAccountOrders.feature" />
+      <option name="GLUE" value="com.salmon.test.framework.helpers.screenshot_helper com.salmon.test.services com.salmon.test.step_definitions.api com.salmon.test.step_definitions.gui" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="salmonAutomationFramework" />
+      <option name="NAME_FILTER" value="^Chopin Login$" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Chopin Login" />
+      <option name="VM_PARAMETERS" value="-Dsite.url=https://www-aws19.dev-newlook.com/ -Dapi.url=https://apps-aws19.dev-newlook.com " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="salmonAutomationFramework [clean,test,-P...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+                <option value="-P" />
+                <option value="browserstack" />
+                <option value="-P" />
+                <option value="samsungs10" />
+                <option value="-P" />
+                <option value="smokeMobile_oms" />
+                <option value="-Dsite.url=https://www-aws19.dev-newlook.com/" />
+                <option value="-Dapi.url=https://apps-aws19.dev-newlook.com" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Chopin Login" />
+      <item itemvalue="Cucumber Java.Scenario: 1 Create order for awaiting dispatch for home delivery" />
+      <item itemvalue="Cucumber Java.Scenario: 1 I First address should be default" />
+      <item itemvalue="Cucumber Java.Scenario: 1 Validate my collection location page without any saved locations" />
+      <item itemvalue="Cucumber Java.Scenario: 1a New user makes a payment for collection and checks order history - gift card" />
+      <item itemvalue="Cucumber Java.Scenario: 2 I check my Gift Card balance but this is currently at zero" />
+      <item itemvalue="Cucumber Java.Scenario: 2 search" />
+      <item itemvalue="Cucumber Java.Scenario: 3 Add a collection location and verify my collection location page - PCI micro forms" />
+      <item itemvalue="Cucumber Java.Scenario: 3 I try to check my Gift Card balance but my card is blocked" />
+      <item itemvalue="Cucumber Java.Scenario: 4 Guest makes a payment for collection and checks order history -- PCI microforms" />
+      <item itemvalue="Cucumber Java.Scenario: 6 Different price for the product with colour variants on the PDP page" />
+      <item itemvalue="Cucumber Java.Scenario: 10 For ROW when I visit Teens section the default selection should be model off as per set data in the back end hybris" />
+      <item itemvalue="Cucumber Java.Scenario: 11 - Stock equal to or less than 5 units (Single Size Item)" />
+      <item itemvalue="Cucumber Java.Scenario: 12 Change in collection country to the non-collection country within ROW re-directs user to delivery page in checkout" />
+      <item itemvalue="Cucumber Java.Scenario: 12 Use Klarna to checkout order with product level promotions" />
+      <item itemvalue="Cucumber Java.Scenario: 19 cart page has product color and size selected in the pdp" />
+      <item itemvalue="Cucumber Java.Scenario: 7 Change delivery mode and complete purchase" />
+      <item itemvalue="Cucumber Java.Scenario: 1 Validate personal details page" />
+      <item itemvalue="Cucumber Java.Scenario: 31 Registered Customer checkout using invalid debit card , switch to store card payment option" />
+      <item itemvalue="Maven.salmonAutomationFramework [clean,test,-P...]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: 31 Registered Customer checkout using invalid debit card , switch to store card payment option" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36106b17-4474-452c-bfe4-b44487ada0c1" name="Default Changelist" comment="" />
+      <created>1638359692439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638359692439</updated>
+    </task>
+    <task id="LOCAL-00015" summary="removing unneccasry tags">
+      <created>1649316732078</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1649316732078</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixing promotion cases">
+      <created>1649398122873</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1649398122873</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixing promotion cases and review comments">
+      <created>1649410619920</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1649410619920</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Mapping bug number to script">
+      <created>1649421414469</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1649421414469</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fixing mobile tests">
+      <created>1649678329074</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1649678329074</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fixing mobile tests">
+      <created>1649679179050</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1649679179050</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fixing mobile tests for mybagsignedinusermobile">
+      <created>1649762200136</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1649762200136</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Adding s10 device for anonymousMobile2Samsung suite">
+      <created>1649832210459</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1649832210459</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fixing mobile devices testcases">
+      <created>1650012361403</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650012361403</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fixing some more mobile devices testcases">
+      <created>1650015654908</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650015654908</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fixing cases 30 and 35 also keep in mind of softpromise call.">
+      <created>1650609800472</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1650609800472</updated>
+    </task>
+    <task id="LOCAL-00026" summary="removing unnecassry click method">
+      <created>1650613698993</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1650613698993</updated>
+    </task>
+    <task id="LOCAL-00027" summary="removing all the things that made for softpromise call towirk.">
+      <created>1650626635743</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1650626635743</updated>
+    </task>
+    <task id="LOCAL-00028" summary="changing size product to fix mybag new user feature file">
+      <created>1651060920159</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1651060920159</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fixing some more mybaganoymoususer feature file .">
+      <created>1651237118989</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1651237118989</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixing shoes related and kalrna promotion feature files">
+      <created>1651491595226</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651491595226</updated>
+    </task>
+    <task id="LOCAL-00031" summary="review comments fixed">
+      <created>1651494475054</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1651494475054</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added one more scnerio">
+      <created>1651495123267</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1651495123267</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added one more scnerio again">
+      <created>1651495835559</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1651495835559</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fixing Student Discount/Unidays Coupon feature file">
+      <created>1652092937928</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1652092937928</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fixing purchnase mobile test in ssame branch">
+      <created>1652179881819</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1652179881819</updated>
+    </task>
+    <task id="LOCAL-00036" summary="tagging bug in one script">
+      <created>1652704881727</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1652704881727</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fixing iphone11 tests in aws19">
+      <created>1652965420641</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1652965420641</updated>
+    </task>
+    <task id="LOCAL-00038" summary="development : Merged myAccountOrder into development">
+      <created>1654068880777</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1654068880777</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added missing device in oms">
+      <created>1657884664378</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1657884664378</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fixing one typo in same branch.">
+      <created>1658130149227</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1658130149227</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added one profile in oms side.">
+      <created>1658130718454</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1658130718454</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Added one profile in oms side.">
+      <created>1658133770253</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1658133770253</updated>
+    </task>
+    <task id="LOCAL-00043" summary="tagging order process to exisiting script.">
+      <created>1658217498161</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1658217498161</updated>
+    </task>
+    <task id="LOCAL-00044" summary="adding few cases to acheive the TOdo_oms through Stock alert and hac">
+      <created>1658912307226</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1658912307226</updated>
+    </task>
+    <task id="LOCAL-00045" summary="review comments on ticket 1825">
+      <created>1659000056122</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1659000056122</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fixing iphone test">
+      <created>1659337653974</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1659337653974</updated>
+    </task>
+    <task id="LOCAL-00047" summary="changing stock level as per ipass file">
+      <created>1659420065116</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1659420065116</updated>
+    </task>
+    <task id="LOCAL-00048" summary="changing quantity of product">
+      <created>1659442894304</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1659442894304</updated>
+    </task>
+    <task id="LOCAL-00049" summary="removing @todotag from mobile and web.">
+      <created>1659498524438</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1659498524438</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fixing locater issue on myorderpage and fixed one case of iphone11">
+      <created>1659611590679</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1659611590681</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fixing minor issues">
+      <created>1659615285658</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1659615285658</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fixing css issues">
+      <created>1659622455001</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1659622455002</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fixing purchasemobile for samsungs10">
+      <created>1659703457429</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1659703457429</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fixing assertion errors">
+      <created>1660053076479</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1660053076480</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fixing assertion errors on purchasetest">
+      <created>1660053320963</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1660053320963</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fixed all the todo cases from windows.">
+      <created>1660647924312</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1660647924314</updated>
+    </task>
+    <task id="LOCAL-00057" summary="fixing all failures for Myaccountsaveditem feature file">
+      <created>1660908157195</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1660908157197</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fixing checkoutpage test">
+      <created>1661258117404</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1661258117405</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fixing purchase test for window10">
+      <created>1661424795998</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1661424795998</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Automation for ticket 2280 AC1">
+      <created>1662976479629</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1662976479632</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Added missing case of OMSF-2280">
+      <created>1663141563840</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1663141563855</updated>
+    </task>
+    <task id="LOCAL-00062" summary="fixing myorder related mobile cases">
+      <created>1663236724378</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1663236724378</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fixing return related mobile cases and 2280 ac2">
+      <created>1663669163537</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1663669163537</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="fixing one typo in same branch." />
+    <MESSAGE value="Added one profile in oms side." />
+    <MESSAGE value="tagging order process to exisiting script." />
+    <MESSAGE value="adding few cases to acheive the TOdo_oms through Stock alert and hac" />
+    <MESSAGE value="review comments on ticket 1825" />
+    <MESSAGE value="fixing iphone test" />
+    <MESSAGE value="changing stock level as per ipass file" />
+    <MESSAGE value="changing quantity of product" />
+    <MESSAGE value="removing @todotag from mobile and web." />
+    <MESSAGE value="fixing locater issue on myorderpage and fixed one case of iphone11" />
+    <MESSAGE value="fixing minor issues" />
+    <MESSAGE value="fixing css issues" />
+    <MESSAGE value="fixing purchasemobile for samsungs10" />
+    <MESSAGE value="fixing assertion errors" />
+    <MESSAGE value="fixing assertion errors on purchasetest" />
+    <MESSAGE value="fixed all the todo cases from windows." />
+    <MESSAGE value="fixing all failures for Myaccountsaveditem feature file" />
+    <MESSAGE value="fixing checkoutpage test" />
+    <MESSAGE value="fixing purchase test for window10" />
+    <MESSAGE value="Automation for ticket 2280 AC1" />
+    <MESSAGE value="merge issue" />
+    <MESSAGE value="resolving merge conflicts" />
+    <MESSAGE value="Added missing case of OMSF-2280" />
+    <MESSAGE value="fixing myorder related mobile cases" />
+    <MESSAGE value="fixing return related mobile cases and 2280 ac2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing return related mobile cases and 2280 ac2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="26" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+</project>

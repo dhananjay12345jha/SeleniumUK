@@ -1,0 +1,54 @@
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'parallel_oms'),
+					 string(name: 'device', value: 'windows10'),
+                string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),
+                string(name: 'testEnv', value: 'aws19'),
+                string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),
+                string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'anonymousMobile_oms'),
+					 string(name: 'device', value: 'iphone11'),
+					 string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),
+					 string(name: 'testEnv', value: 'aws19'),
+					 string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),
+					 string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'userDependentMobile_oms'),
+					 string(name: 'device', value: 'iphone8'),
+					 string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),
+					 string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'anonymousMobile_oms'),
+					 string(name: 'device', value: 'samsungs9'),
+					 string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'anonymousMobile2_oms'),
+					 string(name: 'device', value: 'iphone11-pro'),
+					 string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'newUsersMobile_oms'),
+					 string(name: 'device', value: 'iphone11-pro-max'),
+					 string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'newUsersMobile_oms'),
+					 string(name: 'device', value: 'samsungs10'),
+					 string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/OMS/oms-browserstack-regression',
+        parameters: [string(name: 'suite', value: 'userDependentMobile_oms'),
+					 string(name: 'device', value: 'iphone11-pro-max'),
+					 string(name: 'browserstackuser', value: 'c0b3729d-5708-41a2-a794-add804540949'),string(name: 'testEnv', value: 'aws19'),string(name: 'bsUser', value: 'satishkumar_Ir6C3d'),string(name: 'bsKey', value: 'xXpLRFDp9n7BEzqpenwt')],
+		wait: false)

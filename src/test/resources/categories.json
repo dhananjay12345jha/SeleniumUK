@@ -1,0 +1,201 @@
+[
+  {
+    "name": "Max grid concurrency reached",
+    "messageRegex": ".*All parallel tests are currently in use, including the queued tests.*",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  },
+  {
+    "name": "Ignored tests",
+    "messageRegex": ".*ignored.*",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  },
+  {
+    "name": "To investigate",
+    "traceRegex": ".*AssertionError:.*",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ]
+  },
+  {
+    "name": "To investigate",
+    "traceRegex": ".*NoSuchElementException:.*",
+    "matchedStatuses": [
+      "broken",
+      "failed"
+    ]
+  },
+  {
+    "name": "Script issue",
+    "traceRegex": ".*UndeclaredThrowableException.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Script issue",
+    "traceRegex": ".*java.util.NoSuchElementException.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Script issue",
+    "traceRegex": ".*StaleElementReferenceException:.*",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Environment issue - Test environment down/Device internet issue",
+    "traceRegex": ".*Get started.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Application issue - payment frame not loading",
+    "traceRegex": ".*datacash.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Saucelabs issue - Unknown host error",
+    "traceRegex": ".*UnknownHostException: eu1.api.testobject.com.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Saucelabs issue - Appium quit unexpectedly error",
+    "traceRegex": ".*Appium unexpectedly ended the connection. It may have quit abnormally.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Saucelabs issue - HTML 500 Server Error",
+    "traceRegex": ".*HTTP ERROR 500 Server Error.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Saucelabs issue - Lost contact with app",
+    "traceRegex": ".*Lost contact with app, please check Appium log for more information.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Saucelabs issue - Unable to find session",
+    "traceRegex": ".*Unable to find session with requested ID.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "To investigate - Element Click Intercepted Exception",
+    "traceRegex": ".*ElementClickInterceptedException.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Saucelabs issue - Socket timeout",
+    "traceRegex": ".*SocketTimeoutException.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Appium issue - Chromedriver issue",
+    "traceRegex": ".*Chromedriver quit unexpectedly during session.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Appium issue - Connection refused",
+    "traceRegex": ".*connect ECONNREFUSED.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Intermittent application Issue - Payment is taking longer time than expected - OCPS-5875",
+    "traceRegex": ".*Order Number.*",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Intermittent application Issue - Submitting patient agreement is taking longer time than expected",
+    "traceRegex": ".*Your Basket.*",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Intermittent application Issue with events",
+    "traceRegex": ".*Cancel Appointment.*",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Intermittent application Issue with events",
+    "traceRegex": ".*Change Appointment.*",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Expected failure - when login captcha ON",
+    "traceRegex": ".*confirm you are not a robot.*",
+    "matchedStatuses": [
+      "skipped",
+      "failed",
+      "broken"
+    ]
+  },
+  {
+    "name": "Application Issue - Consultation not loaded",
+    "traceRegex": ".*Please tell us your sex at birth.*",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ]
+  }
+]

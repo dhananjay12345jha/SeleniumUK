@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.salmon.test.RunWebSmokeMobileSuite_oms" time="1,441.679" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\target\test-classes;D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\target\classes;C:\Users\djha\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\djha\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar;C:\Users\djha\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar;C:\Users\djha\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\djha\.m2\repository\com\github\temyers\cucumber-jvm-parallel-plugin\4.2.0\cucumber-jvm-parallel-plugin-4.2.0.jar;C:\Users\djha\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\djha\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\djha\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\djha\.m2\repository\io\cucumber\datatable\1.0.3\datatable-1.0.3.jar;C:\Users\djha\.m2\repository\io\cucumber\datatable-dependencies\1.0.3\datatable-dependencies-1.0.3.jar;C:\Users\djha\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\djha\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\djha\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\djha\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\djha\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\djha\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\djha\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-testng\5.7.0\cucumber-testng-5.7.0.jar;C:\Users\djha\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\djha\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\djha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\djha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-picocontainer\2.4.0\cucumber-picocontainer-2.4.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\djha\.m2\repository\io\cucumber\gherkin\4.1.3\gherkin-4.1.3.jar;C:\Users\djha\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\djha\.m2\repository\io\leangen\geantyref\geantyref\1.3.4\geantyref-1.3.4.jar;C:\Users\djha\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\djha\.m2\repository\net\masterthought\maven-cucumber-reporting\4.7.0\maven-cucumber-reporting-4.7.0.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-plugin-api\3.6.1\maven-plugin-api-3.6.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-model\3.6.1\maven-model-3.6.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-artifact\3.6.1\maven-artifact-3.6.1.jar;C:\Users\djha\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.3\org.eclipse.sisu.plexus-0.3.3.jar;C:\Users\djha\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\djha\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.3\org.eclipse.sisu.inject-0.3.3.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\djha\.m2\repository\org\apache\maven\plugins\maven-gpg-plugin\1.6\maven-gpg-plugin-1.6.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\djha\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\djha\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\djha\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\djha\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\djha\.m2\repository\net\masterthought\cucumber-reporting\4.7.0\cucumber-reporting-4.7.0.jar;C:\Users\djha\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\djha\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\djha\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20190325.1\owasp-java-html-sanitizer-20190325.1.jar;C:\Users\djha\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\djha\.m2\repository\com\jcabi\jcabi-matchers\1.3\jcabi-matchers-1.3.jar;C:\Users\djha\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\djha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\djha\.m2\repository\com\jcabi\jcabi-log\0.14.3\jcabi-log-0.14.3.jar;C:\Users\djha\.m2\repository\com\jcabi\jcabi-aspects\0.17.1\jcabi-aspects-0.17.1.jar;C:\Users\djha\.m2\repository\org\aspectj\aspectjrt\1.8.0\aspectjrt-1.8.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\djha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\djha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\djha\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\djha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\djha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\djha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\djha\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\djha\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\djha\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-server\3.14.0\selenium-server-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\djha\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\djha\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;C:\Users\djha\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\djha\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.30\htmlunit-2.30.jar;C:\Users\djha\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\djha\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.0.0\htmlunit-cssparser-1.0.0.jar;C:\Users\djha\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.30\neko-htmlunit-2.30.jar;C:\Users\djha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\djha\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.8.v20180619\jetty-repacked-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20180619\jetty-client-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20180619\jetty-http-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20180619\jetty-io-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20180619\jetty-util-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20180619\jetty-xml-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.30.0\htmlunit-driver-2.30.0.jar;C:\Users\djha\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20180619\websocket-api-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20180619\websocket-client-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20180619\websocket-common-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\djha\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\djha\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\djha\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\djha\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\djha\.m2\repository\com\jayway\restassured\rest-assured\2.9.0\rest-assured-2.9.0.jar;C:\Users\djha\.m2\repository\org\codehaus\groovy\groovy\2.4.4\groovy-2.4.4.jar;C:\Users\djha\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.4\groovy-xml-2.4.4.jar;C:\Users\djha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\djha\.m2\repository\com\jayway\restassured\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\djha\.m2\repository\org\codehaus\groovy\groovy-json\2.4.4\groovy-json-2.4.4.jar;C:\Users\djha\.m2\repository\com\jayway\restassured\rest-assured-common\2.9.0\rest-assured-common-2.9.0.jar;C:\Users\djha\.m2\repository\com\jayway\restassured\xml-path\2.9.0\xml-path-2.9.0.jar;C:\Users\djha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.3\jackson-databind-2.6.3.jar;C:\Users\djha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\djha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.3\jackson-core-2.6.3.jar;C:\Users\djha\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\djha\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\djha\.m2\repository\joda-time\joda-time\2.5\joda-time-2.5.jar;C:\Users\djha\.m2\repository\org\apache\logging\log4j\log4j-api\2.7\log4j-api-2.7.jar;C:\Users\djha\.m2\repository\org\apache\logging\log4j\log4j-core\2.7\log4j-core-2.7.jar;C:\Users\djha\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.7\log4j-slf4j-impl-2.7.jar;C:\Users\djha\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\djha\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\djha\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\djha\.m2\repository\io\appium\java-client\4.1.2\java-client-4.1.2.jar;C:\Users\djha\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\djha\.m2\repository\commons-validator\commons-validator\1.5.1\commons-validator-1.5.1.jar;C:\Users\djha\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\djha\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\djha\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\djha\.m2\repository\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;C:\Users\djha\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\tools\lib\db2jcc.jar;D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\tools\lib\db2jcc_license_cu.jar;D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\tools\lib\ojdbc14.jar;C:\Users\djha\.m2\repository\uk\co\jemos\podam\podam\6.0.2.RELEASE\podam-6.0.2.RELEASE.jar;C:\Users\djha\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\djha\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\djha\.m2\repository\org\springframework\spring-messaging\4.1.6.RELEASE\spring-messaging-4.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\hibernate\hibernate-validator\4.2.0.Final\hibernate-validator-4.2.0.Final.jar;C:\Users\djha\.m2\repository\org\springframework\integration\spring-integration-core\4.1.3.RELEASE\spring-integration-core-4.1.3.RELEASE.jar;C:\Users\djha\.m2\repository\org\projectreactor\reactor-core\1.1.4.RELEASE\reactor-core-1.1.4.RELEASE.jar;C:\Users\djha\.m2\repository\com\goldmansachs\gs-collections\5.1.0\gs-collections-5.1.0.jar;C:\Users\djha\.m2\repository\com\goldmansachs\gs-collections-api\5.1.0\gs-collections-api-5.1.0.jar;C:\Users\djha\.m2\repository\com\lmax\disruptor\3.2.1\disruptor-3.2.1.jar;C:\Users\djha\.m2\repository\io\gatling\jsr166e\1.0\jsr166e-1.0.jar;C:\Users\djha\.m2\repository\org\springframework\retry\spring-retry\1.1.1.RELEASE\spring-retry-1.1.1.RELEASE.jar;C:\Users\djha\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\djha\.m2\repository\com\browserstack\browserstack-local-java\1.0.3\browserstack-local-java-1.0.3.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-spring\5.7.0\cucumber-spring-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-java8\6.10.3\cucumber-java8-6.10.3.jar;C:\Users\djha\.m2\repository\net\jodah\typetools\0.6.3\typetools-0.6.3.jar;C:\Users\djha\.m2\repository\io\qameta\allure\allure-cucumber5-jvm\2.13.2\allure-cucumber5-jvm-2.13.2.jar;C:\Users\djha\.m2\repository\io\qameta\allure\allure-java-commons\2.13.2\allure-java-commons-2.13.2.jar;C:\Users\djha\.m2\repository\io\qameta\allure\allure-model\2.13.2\allure-model-2.13.2.jar;C:\Users\djha\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\djha\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\djha\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\djha\.m2\repository\org\springframework\spring-core\5.1.6.RELEASE\spring-core-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-jcl\5.1.6.RELEASE\spring-jcl-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-test\5.1.6.RELEASE\spring-test-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-tx\5.1.6.RELEASE\spring-tx-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-beans\5.1.6.RELEASE\spring-beans-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-context\5.1.6.RELEASE\spring-context-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-aop\5.1.6.RELEASE\spring-aop-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-expression\5.1.6.RELEASE\spring-expression-5.1.6.RELEASE.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\djha\AppData\Local\Temp\surefire12439971591393919077\surefirebooter15411287470986689155.jar C:\Users\djha\AppData\Local\Temp\surefire12439971591393919077 2022-09-19T15-08-26_713-jvmRun1 surefire18283898478077194878tmp surefire_19194702479479054380tmp"/>
+    <property name="api.url" value="https://apps-aws19.dev-newlook.com"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\target\test-classes;D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\target\classes;C:\Users\djha\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\djha\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar;C:\Users\djha\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0\jaxb-impl-2.3.0.jar;C:\Users\djha\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\djha\.m2\repository\com\github\temyers\cucumber-jvm-parallel-plugin\4.2.0\cucumber-jvm-parallel-plugin-4.2.0.jar;C:\Users\djha\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\djha\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\djha\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\djha\.m2\repository\io\cucumber\datatable\1.0.3\datatable-1.0.3.jar;C:\Users\djha\.m2\repository\io\cucumber\datatable-dependencies\1.0.3\datatable-dependencies-1.0.3.jar;C:\Users\djha\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\djha\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\djha\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\djha\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\djha\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\djha\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\djha\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-testng\5.7.0\cucumber-testng-5.7.0.jar;C:\Users\djha\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\djha\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\djha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\djha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-picocontainer\2.4.0\cucumber-picocontainer-2.4.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\djha\.m2\repository\io\cucumber\gherkin\4.1.3\gherkin-4.1.3.jar;C:\Users\djha\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\djha\.m2\repository\io\leangen\geantyref\geantyref\1.3.4\geantyref-1.3.4.jar;C:\Users\djha\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\djha\.m2\repository\net\masterthought\maven-cucumber-reporting\4.7.0\maven-cucumber-reporting-4.7.0.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-plugin-api\3.6.1\maven-plugin-api-3.6.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-model\3.6.1\maven-model-3.6.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-artifact\3.6.1\maven-artifact-3.6.1.jar;C:\Users\djha\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.3\org.eclipse.sisu.plexus-0.3.3.jar;C:\Users\djha\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\djha\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.3\org.eclipse.sisu.inject-0.3.3.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\djha\.m2\repository\org\apache\maven\plugins\maven-gpg-plugin\1.6\maven-gpg-plugin-1.6.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\djha\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\djha\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\djha\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\djha\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\djha\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\djha\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\djha\.m2\repository\net\masterthought\cucumber-reporting\4.7.0\cucumber-reporting-4.7.0.jar;C:\Users\djha\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\djha\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\djha\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20190325.1\owasp-java-html-sanitizer-20190325.1.jar;C:\Users\djha\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\djha\.m2\repository\com\jcabi\jcabi-matchers\1.3\jcabi-matchers-1.3.jar;C:\Users\djha\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\djha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\djha\.m2\repository\com\jcabi\jcabi-log\0.14.3\jcabi-log-0.14.3.jar;C:\Users\djha\.m2\repository\com\jcabi\jcabi-aspects\0.17.1\jcabi-aspects-0.17.1.jar;C:\Users\djha\.m2\repository\org\aspectj\aspectjrt\1.8.0\aspectjrt-1.8.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\djha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\djha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\djha\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\djha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\djha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\djha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\djha\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\djha\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\djha\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-server\3.14.0\selenium-server-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\djha\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\djha\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;C:\Users\djha\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\djha\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.30\htmlunit-2.30.jar;C:\Users\djha\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\Users\djha\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.0.0\htmlunit-cssparser-1.0.0.jar;C:\Users\djha\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.30\neko-htmlunit-2.30.jar;C:\Users\djha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\djha\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.8.v20180619\jetty-repacked-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-client\9.4.8.v20180619\jetty-client-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20180619\jetty-http-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20180619\jetty-io-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20180619\jetty-util-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.8.v20180619\jetty-xml-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.30.0\htmlunit-driver-2.30.0.jar;C:\Users\djha\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.8.v20180619\websocket-api-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.8.v20180619\websocket-client-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.8.v20180619\websocket-common-9.4.8.v20180619.jar;C:\Users\djha\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\djha\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\djha\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\djha\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\djha\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\djha\.m2\repository\com\jayway\restassured\rest-assured\2.9.0\rest-assured-2.9.0.jar;C:\Users\djha\.m2\repository\org\codehaus\groovy\groovy\2.4.4\groovy-2.4.4.jar;C:\Users\djha\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.4\groovy-xml-2.4.4.jar;C:\Users\djha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\djha\.m2\repository\com\jayway\restassured\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\djha\.m2\repository\org\codehaus\groovy\groovy-json\2.4.4\groovy-json-2.4.4.jar;C:\Users\djha\.m2\repository\com\jayway\restassured\rest-assured-common\2.9.0\rest-assured-common-2.9.0.jar;C:\Users\djha\.m2\repository\com\jayway\restassured\xml-path\2.9.0\xml-path-2.9.0.jar;C:\Users\djha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.3\jackson-databind-2.6.3.jar;C:\Users\djha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\djha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.3\jackson-core-2.6.3.jar;C:\Users\djha\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\djha\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\djha\.m2\repository\joda-time\joda-time\2.5\joda-time-2.5.jar;C:\Users\djha\.m2\repository\org\apache\logging\log4j\log4j-api\2.7\log4j-api-2.7.jar;C:\Users\djha\.m2\repository\org\apache\logging\log4j\log4j-core\2.7\log4j-core-2.7.jar;C:\Users\djha\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.7\log4j-slf4j-impl-2.7.jar;C:\Users\djha\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\djha\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\djha\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\djha\.m2\repository\io\appium\java-client\4.1.2\java-client-4.1.2.jar;C:\Users\djha\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\djha\.m2\repository\commons-validator\commons-validator\1.5.1\commons-validator-1.5.1.jar;C:\Users\djha\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\djha\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\djha\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\djha\.m2\repository\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;C:\Users\djha\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\tools\lib\db2jcc.jar;D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\tools\lib\db2jcc_license_cu.jar;D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF\tools\lib\ojdbc14.jar;C:\Users\djha\.m2\repository\uk\co\jemos\podam\podam\6.0.2.RELEASE\podam-6.0.2.RELEASE.jar;C:\Users\djha\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\djha\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\djha\.m2\repository\org\springframework\spring-messaging\4.1.6.RELEASE\spring-messaging-4.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\hibernate\hibernate-validator\4.2.0.Final\hibernate-validator-4.2.0.Final.jar;C:\Users\djha\.m2\repository\org\springframework\integration\spring-integration-core\4.1.3.RELEASE\spring-integration-core-4.1.3.RELEASE.jar;C:\Users\djha\.m2\repository\org\projectreactor\reactor-core\1.1.4.RELEASE\reactor-core-1.1.4.RELEASE.jar;C:\Users\djha\.m2\repository\com\goldmansachs\gs-collections\5.1.0\gs-collections-5.1.0.jar;C:\Users\djha\.m2\repository\com\goldmansachs\gs-collections-api\5.1.0\gs-collections-api-5.1.0.jar;C:\Users\djha\.m2\repository\com\lmax\disruptor\3.2.1\disruptor-3.2.1.jar;C:\Users\djha\.m2\repository\io\gatling\jsr166e\1.0\jsr166e-1.0.jar;C:\Users\djha\.m2\repository\org\springframework\retry\spring-retry\1.1.1.RELEASE\spring-retry-1.1.1.RELEASE.jar;C:\Users\djha\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\djha\.m2\repository\com\browserstack\browserstack-local-java\1.0.3\browserstack-local-java-1.0.3.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-spring\5.7.0\cucumber-spring-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\djha\.m2\repository\io\cucumber\cucumber-java8\6.10.3\cucumber-java8-6.10.3.jar;C:\Users\djha\.m2\repository\net\jodah\typetools\0.6.3\typetools-0.6.3.jar;C:\Users\djha\.m2\repository\io\qameta\allure\allure-cucumber5-jvm\2.13.2\allure-cucumber5-jvm-2.13.2.jar;C:\Users\djha\.m2\repository\io\qameta\allure\allure-java-commons\2.13.2\allure-java-commons-2.13.2.jar;C:\Users\djha\.m2\repository\io\qameta\allure\allure-model\2.13.2\allure-model-2.13.2.jar;C:\Users\djha\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\djha\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\djha\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\djha\.m2\repository\org\springframework\spring-core\5.1.6.RELEASE\spring-core-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-jcl\5.1.6.RELEASE\spring-jcl-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-test\5.1.6.RELEASE\spring-test-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-tx\5.1.6.RELEASE\spring-tx-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-beans\5.1.6.RELEASE\spring-beans-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-context\5.1.6.RELEASE\spring-context-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-aop\5.1.6.RELEASE\spring-aop-5.1.6.RELEASE.jar;C:\Users\djha\.m2\repository\org\springframework\spring-expression\5.1.6.RELEASE\spring-expression-5.1.6.RELEASE.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="target/allure-results"/>
+    <property name="user.home" value="C:\Users\djha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\djha\AppData\Local\Temp\surefire12439971591393919077\surefirebooter15411287470986689155.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="cucumber.plugin" value="json:target/cucumber-report.json,io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="djha"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\djha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\djha\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.2"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="site.url" value="https://www-aws19.dev-newlook.com/"/>
+    <property name="user.dir" value="D:\OMSPROJECT\NLK374\test\NEWLOOK_SAF"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;D:\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-11.0.11\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\TortoiseHg\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\djha\AppData\Local\Microsoft\WindowsApps;C:\Users\djha\AppData\Local\GitHubDesktop\bin;C:\Users\djha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\djha\AppData\Roaming\npm;C:\Program Files (x86)\BrowserStackLocal\;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario" classname="com.salmon.test.RunWebSmokeMobileSuite_oms" time="1,439.696">
+    <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+]]></failure>
+    <system-out><![CDATA[[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@58fbd02e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@163042ea, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11d045b4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1fbf088b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1943c1f2]
+
+@anonymousMobile2Samsung @orderprocess_oms @testing
+Scenario Outline: 1 Check Order Returns and Refunds - Return                                    # src/test/resources/features/mobile/ReturnsAndRefundsTestsMobile.feature:146
+Trying to set up
+-- listing properties --
+profile.path=/profiles/browserstack/config.properties
+device=/devices/samsungs10/config.properties
+-- listing properties --
+ProductOnSaleUrl=/uk-womens-department/womans-sale/lin...
+productCode_OneSize_OMS=30248859999
+productCode_PreviousPrice_oms=352759662
+paymentType_GiftcardAndPaypal=gift card and paypal
+paymentType_Storecard=store card
+productCode_stock=340926949
+bsUser=satishkumar_Ir6C3d
+OutOfStockProductUrl_singleSize_oms=/uk/womens/jewellery-and-hair-accesso...
+pciFormNewUser=pci_form@testmail.com
+visa_CardNumber_1=4111111111111111
+MAO_InStock_Dress_SKU=3171910
+password=password123
+studentDiscountUserEmail=auto_studentdiscount@testmail.com
+visa_CardNumber_3=4456530000001013
+visa_CardNumber_2=4000000000000002
+country_Ireland=Republic of Ireland
+MAO_InStock_MultiSize_DRESS=317190649
+chopinUrl=https://staging01-sites.prepaytec.com...
+paymentType_Virtualcard=virtual card
+paymentType_GiftcardAndStorecard=gift card and store card
+backofficeAdminPassword=nimda
+collection_not_available_message=Not available for this order
+productCode_OneSize_LessThan5Stock_OMS=357711970
+paymentType_VirtualcardAndGiftcard1=virtual card and gift card 1
+featureName=feature.newlookintegrationipaas.custo...
+paymentType_VirtualcardAndGiftcard2=virtual card and gift card 2
+productCode_analytics_oms2_sku=3718227
+rerunThreshold=0
+paymentType_Card=card
+registeredGiftCard1=6335863604876742
+OutOfStockProductUrl=/uk-womens-department/jewellery-and-h...
+productCode_ModelWearsOutOfStock=375359290
+productCode_PreviousPrice=341543649
+registeredGiftCard2=6335863608073262
+paymentType_Paypal=pay pal
+country_USA=United States
+store_only_message_checkout=Please note that we only show the ava...
+productCode_OneSize_OutOfStock=372907929
+productCode_MultiSize=355180910
+searchProductNoAlert=<script>alert('test');</script>
+MAO_LowStock_Mobile_sku=3342399
+passwordDeliveryMethod=Password@000
+MAO_OutOfStock_MultiSize_Sku=3351819
+ProductCode_LowStock_oms=340926949
+MAO_InStock_White=377677710
+bag_oos_message=Sorry - some of your items are now ou...
+productCode_analytics_oms4_sku=3578589
+checkoutAndPaymentsUserEmail=auto_checkout@testmail.com
+bagEmail=auto_nl@testmail.com
+message_France=Veuillez noter que vous pouvez choisi...
+paymentType_VirtualcardAndGiftcard=virtual card and gift card
+productCode_OneSize=325963061
+productCode_OneSize_Only1Stock_OMS=353829672
+MAO_LowStock_Sku_24L36=3157759
+myAccountOrdersUserEmail=auto_myAccountOrders@testmail.com
+searchProduct_Tops=tops
+local=false
+myAccountCardsUserEmail=auto_myAccountCards@testmail.com
+productCode_MultiSize_OutOfStock=362940493
+registeredGiftCardPin2=4323
+registeredGiftCardPin1=0459
+ProductCode_LowStock=337213310
+productCode_OneSize_LowStock_3Left_OMS=354235614
+productCode_MultiSize_LowStock=359655644
+message_Germany=Wenn Sie das Versandland
+productCode_OneSize_LowStock_oms=360095513
+MAO_LowStock_MultiSize_JEANS=315770841
+searchProduct_Shoes=Shoes
+productCode_Store_Only_OneSize_OMS=246367692
+contactPreferencesEmail=beccatester@mailinator.com
+site.url=https://www-aws12.dev-newlook.com/
+MAO_MultiSize_sfs_dc=37250074916
+searchProduct_Shirt=shirt
+deliveryOptions=UK Royal Mail
+registeredGiftCardPin=7219
+productCode=367806981
+storeCardNumber=9826220022220013
+productCode_Store_Only_MultiSize_OMS=36466864112
+signInUserEmail=auto_signin@testmail.com
+MAO_LowStock_SingleSize=317431989
+giftCardErrorMessage=Sorry, payment by gift card is curren...
+country_Australia=Australia
+paymentType_Giftcard=gift card 1
+impex=https://testEnv.dev-newlook.com/newlo...
+country_UK=United Kingdom
+MAO_SingleSize_sfs=24636769299
+MAO_LowStock_Mobile=334235630
+backofficeAdmin=admin
+paymentType_Staffcard=staff card
+productCode_MultiSize_LowStock_OMS=3015689
+bagPassword=Password123
+emailAddress=autotester@example.com
+country_France=France
+studentDiscountNO=969614022018094628
+staffDiscountUserEmail=auto_staffdiscount@testemail.com
+MAO_MultiSize_sfs=33124341010
+productCode_MultiSize_OutOfStock1=348866810
+cart_low_stock_message=Sorry, we've had to reduce the quanti...
+country_Albania=Albania
+myAccountSavedItemsUserEmail=auto_myAccountSavedItems@testmail.com
+productCode_OneSize_LessThan5Stock=364584290
+api.url=https://apps-aws12.dev-newlook.com
+shoppingCartEmail=shoppingcartuser@testmail.com
+productCode_analytics_oms1_sku=3724381
+MAO_LowStock_Sku_26L28=31577602
+productCode_brand=368797640
+myBagUserEmail=auto_MyBag@testmail.com
+crmSegmentSpecificPromotionsUserEmail=auto_crmSegmentSpecificPromotions@tes...
+productCode_ModelWears=358599734
+pdp_oos_atc_call_message=Sorry, that product is not currently ...
+productCode_DC_Only_MultiSize_OMS=36492981150
+collectionDisabledText=Not available for this order
+MAO_OutOfStock_SingleSize_Sku=3650176
+blockedGiftCard=6335863609042944
+MAO_SingleSize_sfs_dc=33648399399
+registeredGiftCard=6335863609885037
+searchProduct_Jeans=jeans
+searchProduct_Jeens=jeens
+productCode_ModelWearsNotAvailableInUk=376713813
+group_standard_delivery_message_inner_text=One or more items in your Basket is o...
+group_standard_delivery_message=Standard delivery only available.
+locale=uk
+MAO_OutOfStock_SingleSize=365017370
+country_Germany=Germany
+bazaarVoiceProductNumber=374006118
+testEnv=aws19
+multiPdpUserEmail=auto_multipdp@testemail.com
+platform=browserstack
+productCode_France=340365270
+productCode_MultiSize_oneColorOutOfStock=362042020
+bsKey=xXpLRFDp9n7BEzqpenwt
+productCode_analytics_oms3_sku=3713048
+productCode_France_OMS=371798849
+productCode1=325963061
+productCode2=349382718
+productCode3=374931092
+country_Malta=Malta
+staffCard=9826249999999796
+myAccountPersonalDetailsUserEmail=auto_PD@testmail.com
+OutOfStockProductUrl_oms=/uk/womens/clothing/skirts/blue-tropi...
+standard_delivery_message=Standard delivery only
+myAccountSavedAddress=auto_mySavedAddress@testmail.com
+deliveryMethodEmail=deliveryMethod1204@testmail.com
+productCode_savedItems=374777899
+productCode_analytics_oms5=34670154510
+productCode_analytics_oms6=34670151414
+productCode_analytics_oms1=37243694099
+Mastercard_CardNumber=5200000000000114
+productCode_analytics_oms2=371299719
+productCode_analytics_oms3=37129971914
+productCode_OneSize_Only1Stock=357493044
+productCode_analytics_oms4=32518565899
+productCode_MultiColour=363100127
+blockedGiftCardPin=0472
+countryFrance_countryUK=Royaume-Uni
+paymentType_CreditcardAndGiftcard=credit card and gift card
+productCode_MultiSize_multicolor_OutOfStock=348545144
+countryGermany_countryUK=Vereinigtes Königreich
+message_UK=If you change your location, the item...
+MAO_OutOfStock_MultiSize=361381379
+contactPreferencesPassword=test123
+Maestro_CardNumber=6759411100000008
+MAO_LowStock_MultiSize=36176836718
+searchProduct_Dress=dress
+productCode_OneSize_LowStock=368102413
+-- listing properties --
+browser.version=
+realDevice=true
+os=
+vendor=browserstack
+browser=Android
+mobile=true
+browser.width=360
+device=Samsung Galaxy S10
+browser.height=760
+os.version=9.0
+-- listing properties --
+profile.path=/profiles/browserstack/config.properties
+device=/devices/samsungs10/config.properties
+-- listing properties --
+ProductOnSaleUrl=/uk-womens-department/womans-sale/lin...
+productCode_OneSize_OMS=30248859999
+productCode_PreviousPrice_oms=352759662
+paymentType_GiftcardAndPaypal=gift card and paypal
+paymentType_Storecard=store card
+productCode_stock=340926949
+bsUser=satishkumar_Ir6C3d
+OutOfStockProductUrl_singleSize_oms=/uk/womens/jewellery-and-hair-accesso...
+pciFormNewUser=pci_form@testmail.com
+visa_CardNumber_1=4111111111111111
+MAO_InStock_Dress_SKU=3171910
+password=password123
+studentDiscountUserEmail=auto_studentdiscount@testmail.com
+visa_CardNumber_3=4456530000001013
+visa_CardNumber_2=4000000000000002
+country_Ireland=Republic of Ireland
+MAO_InStock_MultiSize_DRESS=317190649
+chopinUrl=https://staging01-sites.prepaytec.com...
+paymentType_Virtualcard=virtual card
+paymentType_GiftcardAndStorecard=gift card and store card
+backofficeAdminPassword=nimda
+collection_not_available_message=Not available for this order
+productCode_OneSize_LessThan5Stock_OMS=357711970
+paymentType_VirtualcardAndGiftcard1=virtual card and gift card 1
+featureName=feature.newlookintegrationipaas.custo...
+paymentType_VirtualcardAndGiftcard2=virtual card and gift card 2
+productCode_analytics_oms2_sku=3718227
+rerunThreshold=0
+paymentType_Card=card
+registeredGiftCard1=6335863604876742
+OutOfStockProductUrl=/uk-womens-department/jewellery-and-h...
+productCode_ModelWearsOutOfStock=375359290
+productCode_PreviousPrice=341543649
+registeredGiftCard2=6335863608073262
+paymentType_Paypal=pay pal
+country_USA=United States
+store_only_message_checkout=Please note that we only show the ava...
+productCode_OneSize_OutOfStock=372907929
+productCode_MultiSize=355180910
+searchProductNoAlert=<script>alert('test');</script>
+MAO_LowStock_Mobile_sku=3342399
+passwordDeliveryMethod=Password@000
+MAO_OutOfStock_MultiSize_Sku=3351819
+ProductCode_LowStock_oms=340926949
+MAO_InStock_White=377677710
+bag_oos_message=Sorry - some of your items are now ou...
+productCode_analytics_oms4_sku=3578589
+checkoutAndPaymentsUserEmail=auto_checkout@testmail.com
+bagEmail=auto_nl@testmail.com
+message_France=Veuillez noter que vous pouvez choisi...
+paymentType_VirtualcardAndGiftcard=virtual card and gift card
+productCode_OneSize=325963061
+productCode_OneSize_Only1Stock_OMS=353829672
+MAO_LowStock_Sku_24L36=3157759
+myAccountOrdersUserEmail=auto_myAccountOrders@testmail.com
+searchProduct_Tops=tops
+local=false
+myAccountCardsUserEmail=auto_myAccountCards@testmail.com
+productCode_MultiSize_OutOfStock=362940493
+registeredGiftCardPin2=4323
+registeredGiftCardPin1=0459
+ProductCode_LowStock=337213310
+productCode_OneSize_LowStock_3Left_OMS=354235614
+productCode_MultiSize_LowStock=359655644
+message_Germany=Wenn Sie das Versandland
+productCode_OneSize_LowStock_oms=360095513
+MAO_LowStock_MultiSize_JEANS=315770841
+searchProduct_Shoes=Shoes
+productCode_Store_Only_OneSize_OMS=246367692
+contactPreferencesEmail=beccatester@mailinator.com
+site.url=https://www-aws12.dev-newlook.com/
+MAO_MultiSize_sfs_dc=37250074916
+searchProduct_Shirt=shirt
+deliveryOptions=UK Royal Mail
+registeredGiftCardPin=7219
+productCode=367806981
+storeCardNumber=9826220022220013
+productCode_Store_Only_MultiSize_OMS=36466864112
+signInUserEmail=auto_signin@testmail.com
+MAO_LowStock_SingleSize=317431989
+giftCardErrorMessage=Sorry, payment by gift card is curren...
+country_Australia=Australia
+paymentType_Giftcard=gift card 1
+impex=https://testEnv.dev-newlook.com/newlo...
+country_UK=United Kingdom
+MAO_SingleSize_sfs=24636769299
+MAO_LowStock_Mobile=334235630
+backofficeAdmin=admin
+paymentType_Staffcard=staff card
+productCode_MultiSize_LowStock_OMS=3015689
+bagPassword=Password123
+emailAddress=autotester@example.com
+country_France=France
+studentDiscountNO=969614022018094628
+staffDiscountUserEmail=auto_staffdiscount@testemail.com
+MAO_MultiSize_sfs=33124341010
+productCode_MultiSize_OutOfStock1=348866810
+cart_low_stock_message=Sorry, we've had to reduce the quanti...
+country_Albania=Albania
+myAccountSavedItemsUserEmail=auto_myAccountSavedItems@testmail.com
+productCode_OneSize_LessThan5Stock=364584290
+api.url=https://apps-aws12.dev-newlook.com
+shoppingCartEmail=shoppingcartuser@testmail.com
+productCode_analytics_oms1_sku=3724381
+MAO_LowStock_Sku_26L28=31577602
+productCode_brand=368797640
+myBagUserEmail=auto_MyBag@testmail.com
+crmSegmentSpecificPromotionsUserEmail=auto_crmSegmentSpecificPromotions@tes...
+productCode_ModelWears=358599734
+pdp_oos_atc_call_message=Sorry, that product is not currently ...
+productCode_DC_Only_MultiSize_OMS=36492981150
+collectionDisabledText=Not available for this order
+MAO_OutOfStock_SingleSize_Sku=3650176
+blockedGiftCard=6335863609042944
+MAO_SingleSize_sfs_dc=33648399399
+registeredGiftCard=6335863609885037
+searchProduct_Jeans=jeans
+searchProduct_Jeens=jeens
+productCode_ModelWearsNotAvailableInUk=376713813
+group_standard_delivery_message_inner_text=One or more items in your Basket is o...
+group_standard_delivery_message=Standard delivery only available.
+locale=uk
+MAO_OutOfStock_SingleSize=365017370
+country_Germany=Germany
+bazaarVoiceProductNumber=374006118
+testEnv=aws19
+multiPdpUserEmail=auto_multipdp@testemail.com
+platform=browserstack
+productCode_France=340365270
+productCode_MultiSize_oneColorOutOfStock=362042020
+bsKey=xXpLRFDp9n7BEzqpenwt
+productCode_analytics_oms3_sku=3713048
+productCode_France_OMS=371798849
+productCode1=325963061
+productCode2=349382718
+productCode3=374931092
+country_Malta=Malta
+staffCard=9826249999999796
+myAccountPersonalDetailsUserEmail=auto_PD@testmail.com
+OutOfStockProductUrl_oms=/uk/womens/clothing/skirts/blue-tropi...
+standard_delivery_message=Standard delivery only
+myAccountSavedAddress=auto_mySavedAddress@testmail.com
+deliveryMethodEmail=deliveryMethod1204@testmail.com
+productCode_savedItems=374777899
+productCode_analytics_oms5=34670154510
+productCode_analytics_oms6=34670151414
+productCode_analytics_oms1=37243694099
+Mastercard_CardNumber=5200000000000114
+productCode_analytics_oms2=371299719
+productCode_analytics_oms3=37129971914
+productCode_OneSize_Only1Stock=357493044
+productCode_analytics_oms4=32518565899
+productCode_MultiColour=363100127
+blockedGiftCardPin=0472
+countryFrance_countryUK=Royaume-Uni
+paymentType_CreditcardAndGiftcard=credit card and gift card
+productCode_MultiSize_multicolor_OutOfStock=348545144
+countryGermany_countryUK=Vereinigtes Königreich
+message_UK=If you change your location, the item...
+MAO_OutOfStock_MultiSize=361381379
+contactPreferencesPassword=test123
+Maestro_CardNumber=6759411100000008
+MAO_LowStock_MultiSize=36176836718
+searchProduct_Dress=dress
+productCode_OneSize_LowStock=368102413
+-- listing properties --
+browser.version=
+realDevice=true
+os=
+vendor=browserstack
+browser=Android
+mobile=true
+browser.width=360
+device=Samsung Galaxy S10
+browser.height=760
+os.version=9.0
+[INFO] https://satishkumar_Ir6C3d:xXpLRFDp9n7BEzqpenwt@hub-cloud.browserstack.com/wd/hub Checking Selenium Remote URL
+  Given i navigate to "Newlook" home page                                                       # com.salmon.test.step_definitions.gui.NavigationSteps.i_navigate_to_the_Salmon_page(java.lang.String)
+[INFO] ### feature is off: feature.pci.microform.enabled.uk-site
+  And feature "feature.pci.microform.enabled.uk-site" is switched off                           # com.salmon.test.step_definitions.gui.given.FeatureOnOffStepDefs.featureIsSwitchedOnOff(java.lang.String,java.lang.String)
+[INFO] password returned -- wFRXxNUl1
+[INFO] password returned -- tDKWltXG1
+[INFO] Waiting for element visible [By.className: register__tab-button]. Timeout:20 sec
+[INFO] found element visibility [By.className: register__tab-button]
+[INFO] email returned -- anr9dbiird@example.com
+  When user provides required details to create new account on mobile                           # com.salmon.test.step_definitions.gui.when.CreateNewAccountWhenStepDefs.userProvidesRequiredDetailsToCreateNewAccountOnMobile()
+[INFO] Getting the product code -- 368797640
+[INFO] Waiting for element visible [By.cssSelector: .product-details-page.content .button.button--primary.button--full-width.ng-scope]. Timeout:20 sec
+[INFO] found element visibility [By.cssSelector: .product-details-page.content .button.button--primary.button--full-width.ng-scope]
+[INFO] Waiting for element visible [By.cssSelector: .bag-item__prod-code.ng-binding]. Timeout:10 sec
+[INFO] found element visibility [By.cssSelector: .bag-item__prod-code.ng-binding]
+[INFO] Waiting for element visible [By.cssSelector: .bag-item__prod-code.ng-binding]. Timeout:10 sec
+[INFO] found element visibility [By.cssSelector: .bag-item__prod-code.ng-binding]
+  And I have checked out "Qty: 4" of a line item                                                # com.salmon.test.step_definitions.gui.ReturnsAndRefundsStepDefinitions.iHaveCheckedOutOfALineItem(java.lang.String)
+[INFO] Waiting for element visible [By.name: useAddress]. Timeout:5 sec
+[INFO] found element visibility [By.name: useAddress]
+[INFO] Expected condition failed: waiting for com.salmon.test.framework.PageObject$$Lambda$646/0x00000008006e6840@6094ad4 (tried for 3 second(s) with 500 milliseconds interval)
+[INFO] no delivery option
+[INFO] Date Not available
+[INFO] Telephone mandatory field is not displayed
+  And I have checked out with the a delivery address "return" and "return"                      # com.salmon.test.step_definitions.gui.ReturnsAndRefundsStepDefinitions.iHaveCheckedOutWithTheADeliveryAddressAnd(java.lang.String,java.lang.String)
+[INFO] Expected condition failed: waiting for com.salmon.test.framework.PageObject$$Lambda$646/0x00000008006e6840@36dc6b9 (tried for 3 second(s) with 500 milliseconds interval)
+[INFO] No delivery update button found
+[INFO] Expected condition failed: waiting for com.salmon.test.framework.PageObject$$Lambda$646/0x00000008006e6840@49482761 (tried for 5 second(s) with 500 milliseconds interval)
+  And select debit or credit card tab                                                           # com.salmon.test.step_definitions.gui.ShoppingCartStepDefinitions.select_debit_or_credit_card_tab()
+[INFO] Waiting for element visible [By.className: modal--large]. Timeout:20 sec
+[INFO] found element visibility [By.className: modal--large]
+[INFO] Waiting for element visible [By.xpath: //*[@class='checkout__payment-card-summary ng-scope']]. Timeout:10 sec
+[INFO] found element visibility [By.xpath: //*[@class='checkout__payment-card-summary ng-scope']]
+[INFO] Expected condition failed: waiting for com.salmon.test.framework.PageObject$$Lambda$646/0x00000008006e6840@3bf306d3 (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] place button found 
+  And i change the billing address and add another card                                         # com.salmon.test.step_definitions.gui.ReturnsAndRefundsStepDefinitions.iChangeTheBillingAddressAndAddAnotherCard()
+  And I get order number from the order confirmation page                                       # com.salmon.test.step_definitions.gui.then.PurchasesThenStepDefs.iGetOrderNumberFromTheOrderConfirmationPage()
+[INFO] getting order statusPlaced
+[INFO] getting order statusPlaced
+[INFO] getting order statusPlaced
+[INFO] getting order statusPlaced
+[INFO] getting order statusPlaced
+[INFO] getting order statusPlaced
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusIn Process
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+[INFO] getting order statusAwaiting dispatch
+  And select order with status "Returned" order status with "Track and view order" link mobile  # com.salmon.test.step_definitions.gui.then.PurchasesThenStepDefs.selectOrderWithStatusOMSMobile(java.lang.String,java.lang.String)
+  Then refund history "true" section exits                                                      # com.salmon.test.step_definitions.gui.then.PurchasesThenStepDefs.refundHistorySectionExits(java.lang.Boolean)
+      java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.salmon.test.step_definitions.gui.then.PurchasesThenStepDefs.refundHistorySectionExits(PurchasesThenStepDefs.java:189)
+	at ?.refund history "true" section exits(file:///D:/OMSPROJECT/NLK374/test/NEWLOOK_SAF/src/test/resources/features/mobile/ReturnsAndRefundsTestsMobile.feature:142)
+
+  And also verify other order details in items section with status "Returned" and "UK Standard" # com.salmon.test.step_definitions.gui.then.PurchasesThenStepDefs.also_verify_other_order_details_in_items_section_with_status(java.lang.String,java.lang.String)
+java.nio.file.NoSuchFileException: D:\OMSPROJECT\NLK374\test\NEWLOOK_SAFsrc\test\resources\categories.json - couldn't copy categories.json file from test/resources
+
+    https://www-aws19.dev-newlook.com/uk/my-account/order/HY01597003
+
+
+    Embedding screenshot [image/png 108093 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Sep 19, 2022 3:08:29 PM io.cucumber.testng.TestNGCucumberRunner <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+Sep 19, 2022 3:08:31 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 19, 2022 3:08:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

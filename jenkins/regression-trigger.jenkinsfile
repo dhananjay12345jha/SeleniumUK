@@ -1,0 +1,88 @@
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'parallel'),
+					 string(name: 'device', value: 'windows10'),
+                string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),
+                string(name: 'testEnv', value: 'aws12'),
+                string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),
+                string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'anonymousMobile'),
+					 string(name: 'device', value: 'iphone11'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),
+					 string(name: 'testEnv', value: 'aws12'),
+					 string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),
+					 string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'anonymousMobileSamsung'),
+					 string(name: 'device', value: 'samsungs9'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),
+					 string(name: 'testEnv', value: 'aws12'),
+					 string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),
+					 string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'userDependentMobile'),
+					 string(name: 'device', value: 'iphone8'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),
+					 string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+              parameters: [string(name: 'suite', value: 'userDependentMobileSamsung'),
+      					 string(name: 'device', value: 'samsungs9'),
+      					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),
+      					 string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+      		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'anonymousMobile'),
+					 string(name: 'device', value: 'samsungs9'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'anonymousMobile2'),
+					 string(name: 'device', value: 'iphone11-pro'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+              parameters: [string(name: 'suite', value: 'anonymousMobile2Samsung'),
+      					 string(name: 'device', value: 'samsungs10'),
+      					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+      		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'newUsersMobile'),
+					 string(name: 'device', value: 'iphone11-pro-max'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'newUsersMobileSamsung'),
+					 string(name: 'device', value: 'samsungs10'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'newUsersMobile'),
+					 string(name: 'device', value: 'samsungs10'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'userDependentMobile'),
+					 string(name: 'device', value: 'iphone11-pro-max'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)
+
+build(  job: 'Automation/browserstack/browserstack-regression',
+        parameters: [string(name: 'suite', value: 'userDependentMobileSamsung'),
+					 string(name: 'device', value: 'samsungs10'),
+					 string(name: 'browserstackuser', value: 'fde7d183-6ec2-4f6e-a9ea-6c4a93af5763'),string(name: 'testEnv', value: 'aws12'),string(name: 'bsUser', value: 'vishalbansal_oq7t1A'),string(name: 'bsKey', value: 'C2kBcyjwybVuyR4SccMc')],
+		wait: false)

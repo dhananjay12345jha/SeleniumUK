@@ -1,0 +1,190 @@
+@newlook @Anonymous2
+Feature: home page links
+
+	Background:
+		Given i navigate to "Newlook" home page
+
+	@smokepack
+	Scenario:1 mega menu all links
+		Then check all mega menu headings
+
+
+	@Ignore #Used for the first version of the MegaNav
+	Scenario Outline:2 Mega menu
+		Then able to navigate through mega menu <megaMenu>
+		Examples:
+			| megaMenu         |
+			| Womens -> New In |
+			| Mens -> Clothing |
+			| Mens -> New In   |
+
+
+	@Ignore @todo
+	Scenario Outline:3 bread crumbs
+		When Navigate to <department> department from mega menu
+		Then page should show correct breadcrumb for selected department
+		And select a random product from PLP
+		Then clicking department breadcrumb should show right url
+		And clicking home breadcrumb should show right url
+		Examples:
+			| department |
+			| Teens      |
+			| Mens       |
+
+
+	Scenario Outline:4 footer links
+		Then footer link <footer link> should navigate to page <page>
+		Examples:
+			| footer link      | page                                |
+			| FAQ              | Frequently Asked Questions FAQ Page |
+			| Track Your Order | Track My Order Page                 |
+			| Staff Discount   | Staff Discount                      |
+
+	Scenario Outline: 5 home page search
+		Then product search with string <searchTerm> should show min <count> matched results
+		Examples:
+			| searchTerm | count |
+			| jeans      | 10    |
+			| shirt      | 10    |
+			| tops       | 10    |
+
+	Scenario: 6 Gender button does not exist in the newsletter signup
+		Then gender button does not exist "I’M MALE"
+		And news letter signup button equals "SIGN ME UP"
+
+	Scenario: 7 Attempt to sign up to newsletter without email address
+		And I click on Sign Me Up button
+		Then this is a required field error box appears
+
+	@Ignore
+	Scenario: 8 Click Hotspot trigger and select size from side panel
+		And I click on hotspot trigger
+		Then side panel should open
+		And switch to side panel
+		And select a size from the side panel
+
+	Scenario: 9 Ikano card image is displayed in the footer
+		Then IKANO card image is displayed in the footer
+
+	Scenario: 10 Select delivery from the footer
+		When I select "Delivery" from the footer
+		Then I am taken to the delivery redirect page
+
+	Scenario: 11 Validate that #! href link target has been removed from 'Got It' CTA button on cookie banner
+		Then Validate Got It button
+
+	Scenario: 12 Validate that cookie banner is not displayed to a known user on landing page if Got It CTA button was selected in previous visit
+		And Click on Got It button
+		And Refresh homepage
+		Then Got It button is not present
+
+	Scenario: 13 Validate that cookie banner redisplayed to a user has no #! href link target on 'Got It' CTA button if browser cache from previous sessions are cleared
+		And Click on Got It button
+		And Clear cookies
+		And Refresh homepage
+		Then Validate Got It button
+
+	Scenario: 14 Validate that comp locationContext parentContext and dataTrackerCode are not visible as query parameters
+		And feature "feature.storefront.page.tracking.cookie.enabled" is switched on
+		And Navigate to Womens department from mega menu
+		Then url does not contain "comp="
+		Then url does not contain "LocationContext"
+		Then url does not contain "ParentContext"
+		Then url does not contain "DataTrackerCode"
+
+	Scenario: 15 Validate that comp locationContext parentContext and dataTrackerCode are visible as query parameters if Feature Flag is off
+		And feature "feature.storefront.page.tracking.cookie.enabled" is switched off
+		And Navigate to Womens department from mega menu
+		Then url contains "comp="
+		Then url contains "LocationContext"
+		Then url contains "ParentContext"
+		Then url contains "DataTrackerCode"
+
+	Scenario: 16 Validate that comp locationContext parentContext and dataTrackerCode are not visible as query parameters if Feature Flag is On
+		And feature "feature.storefront.page.tracking.cookie.enabled" is switched on
+		And Navigate to Womens department from mega menu
+		Then url does not contain "comp="
+		Then url does not contain "LocationContext"
+		Then url does not contain "ParentContext"
+		Then url does not contain "DataTrackerCode"
+
+#NLCC-3006 update FE Meganav Rendering
+	Scenario: 17 non Server Side Rendered Tier 1 MegaNav without cache
+		And feature "feature.storefront.masthead.v3.enabled" is switched on
+		And user hovers on Mens department from mega menu
+		Then I see network call to load json data
+
+#NLCC-3006 update FE Meganav Rendering
+	Scenario: 18 non Server Side Rendered Tier 1 MegaNav with cache
+		And feature "feature.storefront.masthead.v3.enabled" is switched on
+		And user hovers on Mens department from mega menu
+		Then I see network call to load json data
+		And Navigate to Womens department from mega menu
+		And user hovers on Mens department from mega menu
+		Then I see json data loaded from cache
+
+#NLCC-3006 update FE Meganav Rendering
+	Scenario: 19 non Server Side Rendered Tier 1 MegaNav
+		And feature "feature.storefront.masthead.v3.enabled" is switched on
+		And user hovers on Womens department from mega menu
+		Then I will not see network call to load json data
+
+#NLCC-4147 Brexit messaging delivery country selector
+	Scenario: 20 Brexit message appears on Delivery Country Selector on footer
+		And feature "feature.storefront.brexitBanner.enabled" is switched on
+		And click on change delivery country link on footer
+		Then I should see brexit message above change setting cta
+
+#NLCC-4147 Brexit messaging delivery country selector
+	Scenario: 21 ROW Brexit message appears on Delivery Country Selector on footer
+		And feature "feature.storefront.brexitBanner.enabled" is switched on
+		When click on change delivery country link on footer
+		And I select a different country country_USA using the drop down
+		And click on change delivery country link on footer
+		Then I should see brexit message above change setting cta
+
+#NLCC-4147 Brexit messaging delivery country selector
+	Scenario Outline: 22 France Brexit message appears on Delivery Country Selector on footer
+		And feature "feature.storefront.brexitBanner.enabled" is switched on
+		When click on change delivery country link on footer
+		And I select a different country <country> using the drop down
+		And click on change delivery country link on footer
+		Then I should see brexit message above change setting cta
+		And I should see brexit message for country <message1>
+		When I change country <country1> to <country2>
+		And click on change delivery country link on footer
+		Then I should see brexit message for country <message2>
+
+		Examples:
+			| country         | message1        | country1       | country2  | message2   |
+			| country_France  | message_France  | countryFrance  | countryUK | message_UK |
+			| country_Germany | message_Germany | countryGermany | countryUK | message_UK |
+
+		#NLCC-3726 Tracker code is populated in MegaNav v3
+	Scenario Outline: 22 SSR Tracker code is populated correctly on T1,T2 and T3 menu items
+		And feature "feature.storefront.masthead.v3.enabled" is switched on
+		And Navigate to mega menu <tag> from Womens department and get Data tracker code
+		Then Data Tracker code is same as that of productFindingMethod value
+		And Navigate to mega menu <tag> from Mens department and get Data tracker code
+		Then Data Tracker code is same as that of productFindingMethod value
+		Examples:
+			| tag |
+			| T1  |
+			| T2  |
+			| T3  |
+
+	 #NLCC-3726 Tracker code is populated in MegaNav v3
+	Scenario Outline: 23 Non-SSR Tracker code is populated correctly on T1,T2 and T3 menu items
+		And feature "feature.storefront.masthead.v3.enabled" is switched on
+		And Navigate to mega menu <tag> from Mens department and get Data tracker code
+		And Navigate to mega menu <tag> from Womens department
+		Then Data Tracker code is different as that of productFindingMethod value
+		And Navigate to mega menu <tag> from Womens department and get Data tracker code
+		And Navigate to mega menu <tag> from Mens department
+		Then Data Tracker code is different as that of productFindingMethod value
+		Examples:
+			| tag |
+			| T1  |
+			| T2  |
+			| T3  |
+
